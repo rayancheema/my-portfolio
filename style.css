@@ -1,7 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #DBF8FF;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
-.container{display: inline-block;}
+
+.container {
+    display: inline-block;
+}
 
 .text {
     border-right: 5px solid black;
@@ -9,18 +21,5 @@ body {
     letter-spacing: 10px;
     font-size: 5em;
     width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: 
-    typing 2s steps(18),
-    cursor.4s step-end infinite alternate;
-}
-/* Blinking Cursor */
-@keyframes cursor {
-    50% { border-color: transparent;}
-}
 
-/* Typing Animation */
-@keyframes typing{
-    from { width:0 }
 }
