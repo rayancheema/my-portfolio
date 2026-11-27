@@ -7,19 +7,53 @@
 body {
     background-color: #DBF8FF;
     min-height: 100vh;
-    display: grid;
-    place-items: center;
-}
-
-.container {
-    display: inline-block;
-}
-
-.text {
-    border-right: 5px solid black;
     font-family: monospace;
-    letter-spacing: 10px;
-    font-size: 5em;
-    width: 100%;
+    display: grid;
+    place-items:top;
+}
 
+.box {
+    text-align: center;
+    float: right;
+}
+.hi{
+    color: #8b90b0;
+    font-size: 36px;
+    margin-bottom: 10px;
+
+}
+#t{
+    color: #0EBBE3;
+}
+h1{
+    font-size: 100px;
+}
+.cur {
+    display: inline-block;
+    width: 7px;
+    height: 96px;
+    margin-left: 8px;
+    vertical-align: -12px;
+    background: #78dcff;
+    animation: blink .8s steps(1) infinite;
+}
+@keyframes blink {
+    50%{
+        opacity:0;
+    }
+}
+.blank1{
+    height: 50%;
+}
+.scroll1{
+    font-size: 50px;
+    text-align: center;
+    justify-content: end;
+}
+.pic{
+    border-radius: 150px;
+    height: 500px;
+}
+.divpic{
+    float:right;
 }
