@@ -9,12 +9,10 @@ body {
     min-height: 100vh;
     font-family: monospace;
     display: grid;
-    place-items:top;
 }
 
 .box {
     text-align: center;
-    float: right;
 }
 .hi{
     color: #8b90b0;
@@ -53,7 +51,4 @@ h1{
 .pic{
     border-radius: 150px;
     height: 500px;
-}
-.divpic{
-    float:right;
 }
