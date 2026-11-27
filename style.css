@@ -1,3 +1,26 @@
 body {
     background-color: #DBF8FF;
 }
+.container{display: inline-block;}
+
+.text {
+    border-right: 5px solid black;
+    font-family: monospace;
+    letter-spacing: 10px;
+    font-size: 5em;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 2s steps(18),
+    cursor.4s step-end infinite alternate;
+}
+/* Blinking Cursor */
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+
+/* Typing Animation */
+@keyframes typing{
+    from { width:0 }
+}
